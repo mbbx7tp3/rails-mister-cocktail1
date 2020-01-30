@@ -9,8 +9,34 @@ body, html {
 
 .bg {
   /* The image used */
-  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
-
-  /* Full height */
+  background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHgAtAMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAAAAgEDBAUG/8QANBAAAgIBAgUCAwUIAwAAAAAAAAECAxEEIRITMUFhBVEUcYEiMkKh0VJiY4KRorHhBiMz/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oADAMBAAIRAxEAPwDxrpI5JpluRgysZnSRyjVgngBGTkhyDcqyeUKrDyA+HN/LYOGEKMCo8D/D+DbGpssVXuKMEdN4IlR4Omq8LoJKHgDmOgjkeDouGSOWBznpyOSdF1i8AGDkEclexvcH2FcEBi5IKk1uJDiBm5Qco0pBwijK6USauEC0ACgRKsQ8StMdBVsWOuhVEdMgYMrDbaSSy23shG8HD/5Dq5qyOjrb4eFSnju32LmGtWq9foozDSw50l+J7R/2cu31vX2P7NvLX8OKRz8Y6lkKbp/dqk18ixKeet1k3vqbn/OyI6vVw3jqL1/OyfgtR3ra+qD4PUL8P9xUX1+s6+trN3M8TSZvo9fUsLU0tP8AareV/RnHlXfBYlCWPKyVPd9MP2JB7Om+u6vjqmpx90x+vQ8joNXZor42RbcH96PaSPVKSaUo7xayn4JuNYcWRGSGwBsjIMRgDDiYrIED5AryAEpkrBXFjoIsQ6ERIDp4G4irJOQqxvKOFqKlrJ/Exl+Hlz/dktvzWPzOxxHmbLbdJrrnVLhlxvbs1nuE10KNLVT0XFL3luaMmOnX02vFn/TN++XH9Ua1XY48UFzI+9eJL8iiZJYKWM5NLdY+ZXxZAkrtprs+/FPz3HSlJ4jFt+yRFk41f+04w8Pr/QIyS0EuGXBmf7K75O5o5L4eEYtSVcVDiXfCwcLUa9yi66E0n1k+r/Q63pn2dDV5WRq43cQrkLxEZIpsi5IbIbAlsVshsjIE5AUAJiOiuJYmVDoYWIyAAyDIICT2PO+rwcdZKWNppNHoWznesUO2hWR617/QDhEwbhJSi3GS6SWzRAGkao+oayOy1V2PM2/8g9fq5ddRY/qZiALbL7bFids5L2cmVbJbAAEp4ee/Y7/o2t0dekdV9l71HVRnBOPyTzk5Xp2n512ZLMIbte77HXuqrurdc4prG23Qiroamm95qbX7suw+Tz+jtl8XUuJt8WPod4LhmxWBDZBDIBsgCQIAqBMsiUplsGBbEdFaHQEsjoG5DyBDKrpJR36DyMOvt5dT33IOPqFGN0lD7uSolvLbZBpAAAAAAANXZODzXNp+GXO7V2rh4rJZ2wl1Nfps044aWToIgxenaOVU+bckpY+yvY6WRATCmIbDIrYEsVvyGRWwBsBeIAHRZFlSHiBoixu5XEdAM2Q90SDz4wBVI5XqstkjryWxyPU45A5ZBLW4FRAAAAAEgaNHZwWHVrmpLZnDj1NmlvcdmQdXJIlbykxgqcisGyGwAVg2K2UQSKAFyGRCSQyCLIseLK0ixdApskt+RUT9CBZdOrOfro5R0cGXVV8S6IDhWQxJiYNttGM7FEq8LoVFDAs4CHF+zAQlIdQfkeFbb6MBYRXuh4Raaxg0Ro22GhTuBrpzwLJZkSGyQZIpmxHIjIrfsUS2RkggCQIADVgdIACGSGiABT7MjHhABBDwuwkkmAAZrYfIzTqz2ACoqdPyFdPgAAaNSLowXsAAW4wSgAipyQ2AFC5FyAAGSMgAEkAAH//Z");
   height: 100%;
+  padding-top: 50px;
+  }
+.bg h1 {
+  color: white;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  justify-content: flex-end;
+ }
+
+ .card a {
+  padding-top: 10px
+ }
+
+  p {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  h1 {
+    text-align: center
+  }
+
+  .button {
+    text-align: center;
+    padding: 20px;
   }

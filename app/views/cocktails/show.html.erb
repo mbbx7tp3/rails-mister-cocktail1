@@ -17,6 +17,10 @@
 <% end %>
 
 
-<%= link_to "Would you like to add a dose" , new_cocktail_dose_path(@cocktail), class: "btn btn-primary btn-sm" %>
-<br>
+<div class="button">
+  <%= link_to "Would you like to add a dose" , new_cocktail_dose_path(@cocktail), class: "btn btn-primary btn-sm" %>
+</div>
+
+<div class="button">
 <%= link_to "Go back to all Cocktails", cocktails_path, class: "btn btn-primary btn-sm" %>
+</div>
